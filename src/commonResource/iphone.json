@@ -1,0 +1,20 @@
+{"products":
+[{"product_id":1,
+"product_url":"",
+"product_name":"",
+"description_id":1,
+"product_brief_description":"",
+"product_description":" a smartphone can do.","product_img":"https://www.apple.com/v/iphone/home/aj/images/overview/hero/hero_iphone_11_pro__d2lf9zrtcv8m_small_2x.jpg","product_link":"eeeeeeeeeeeee",
+"price_id":1,
+"starting_price":22222,
+"price_range":"rrrrr"},
+
+{"product_id":4,
+"product_url":"iphone 11",
+"product_name":"b",
+"description_id":2,
+"product_brief_description":"c","product_description":"d",
+"product_img":"https://www.apple.com/v/iphone/home/aj/images/overview/hero/hero_iphone_11_pro__d2lf9zrtcv8m_small_2x.jpg","product_link":"eeeeeeeeeeeee",
+"price_id":4,
+"starting_price":22222,
+"price_range":"fff"}]}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+ <div><h1>apple data entry<div class="watermark">
+    group4  
+</div></h1>
+</div>
+    <form target="_blank" action="http://localhost:2145/apple/insert" method="post">
+<!-- table one -->
+ <label for="">product url</label>
+<input name="product_url" type="text" placeholder=" eg iphone11"><br><br>
+<label for="">product name</label>
+<input name="product_name" type="text" placeholder=" eg iPhone 11 "><br><br>
+<!-- table two -->
+<label for="" >product brief description</label>
+<input name="product_brief_description" placeholder=" eg 
+Lots to love. Less to spend. " type="text"><br><br>
+<label for="">product description</label>
+<input name="product_description" type="text"><br><br>
+<label  for="">product image</label>
+<input  name="product_img" type="text"><br><br>
+<label for="">product link</label>
+<input name="product_link" type="text"><br><br>
+<!-- table three -->
+<label for="">starting price</label>
+<input name="starting_price" type="text"><br><br>
+<label for="">price range</label>
+<input name="price_range" type="text"><br><br>
+<!-- table four -->
+<label for="">user name</label>
+<input name="User_name" type="text"><br><br>
+<label  for="">user password</label>
+<input name="User_password" type="password"><br><br>
+
+<button>submit</button>
+    </form>
+    <br><br><br>
+    <!-- <form class="deleter" action="http://localhost:2145/apple/delete" method="post">
+        <h1 class="aa">delete  inserted data</h1> 
+        <br>
+      <input placeholder="insert id to be deleted" type="text"><label for="">delete using id</label><br><br><br>
+    </form> -->
+    <form class="deleter" action="http://localhost:2145/apple/update" method="post">
+        <h1 class="aa"> update price range</h1><br>
+   <input name="aaa" placeholder="insert previous price" type="text"><br><br>
+      <input name="bbb" placeholder="insert new price range" type="text"><br><br><br>
+          <button >SUBMIT</button><br>
+    </form>
+<form class="deleter"  action="http://localhost:2145/apple/format" method="get">
+<button>redo</button></form>
+</body>
+</html>
